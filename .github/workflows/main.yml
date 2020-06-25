@@ -38,4 +38,4 @@ jobs:
       run: npm install -g surge
     
     - name: deploying on surge
-      run: surge ./build http://expense-tracker-by-rahat.surge.sh/ --token ${{secrets.Surge_token}}
+      run: surge ./build http://reacttodo-byrahat.surge.sh/ --token ${{secrets.Surge_token}}
